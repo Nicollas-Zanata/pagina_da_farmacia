@@ -127,8 +127,8 @@ img{
 }
 .container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20vh;
 
 }
@@ -138,4 +138,10 @@ img{
     text-align: center;
     padding: 2vh;
     margin: 2vh;
+}
+.divisao{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
 }
