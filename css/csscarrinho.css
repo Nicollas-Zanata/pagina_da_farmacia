@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    padding: 1rem;
+    background: #f7f7f8;
+}
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .06);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.cart {
+    display: grid;
+    gap: .75rem;
+}
+
+.item {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+
+.item img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.meta {
+    flex: 1;
+    min-width: 0;
+}
+
+.meta h2 {
+    margin: 0;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.meta p {
+    margin: .25rem 0;
+    color: #555;
+    font-size: .875rem;
+}
+
+.controls {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 64px;
+    padding: .3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #0078d4;
+    color: #fff;
+    border: 0;
+    padding: .45rem .6rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button.secondary {
+    background: #e7e7ea;
+    color: #111;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .75rem;
+    border-top: 1px solid #eee;
+    margin-top: .5rem;
+}
+
+@media (max-width: 520px) {
+    .item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .controls {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
