@@ -19,7 +19,7 @@ body{
   display: flex;    
 }
 .logo{
-  width: 70px;
+  width: 80px;
   height: 10vh; 
   border: none;
   border-radius: 10px ; 
