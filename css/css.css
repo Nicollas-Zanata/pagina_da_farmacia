@@ -132,6 +132,13 @@ img{
     row-gap: 20vh;
 
 }
+.containerp{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20vh;
+
+}
 .produto{
     border: 2px solid black;
     border-radius: 10px;
