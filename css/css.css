@@ -113,6 +113,10 @@ dropdown {
 .dropdown-content::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
+.conf{
+    height: 10vh;
+    width: 10vh;
+}
 .menu{
     font-size: 5vh;
     justify-items: center;
@@ -186,6 +190,7 @@ img{
   .dropdown-button {
     font-size: 30px;
   }
+
 
 }
 @media (min-width: 576px) and (max-width: 992px){

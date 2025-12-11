@@ -30,6 +30,10 @@
                     <li><a href="#higiene">Higiene</a></li>
             </div>
             </div>
+
+            <div class="espaco"></div>
+
+
         </div>
     </header>
     <main>
@@ -238,13 +242,23 @@
             </div>
         </div>
     </main>
+
+    <h2>Deseja ver nosso mascocte?</h2>
+    <input onclick="VerMascote()" type="radio" id="VerMascote" name="botao" value="1">
+    <label for="html">SIM</label><br>
+
     <footer>
         <p>2025 Nicollas Zanata de Abreu. Todos os direitos reservados </p>
     </footer>
+    
+
 
     <script>
+        function VerMascote(){
+            document.body.style.backgroundImage = "url('img/Mascote.png')";
 
-        
+            
+        }
 
     </script>
 
